@@ -1,4 +1,3 @@
+const Validate = require("./src/Validate")
 
-import Validate from "./src/Validate";
-
-export default Validate;
+module.export = Validate;
