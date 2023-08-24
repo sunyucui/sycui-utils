@@ -1,6 +1,6 @@
 {
   "name": "sycui-utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "sunyucui",
   "description": "sunyucui's first npm package, this package is just for vaildating mobile number and IDCard Number ",
   "main": "index.js",
