@@ -1,8 +1,8 @@
- module.export = {
+const Validate = {
     /**
      * 手机号校验
      */
-    mobileCheck: (value) => /^[1][3,4,5,7,8][0-9]{9}$/.test(value),
+    mobileCheck : (value) => /^[1][3,4,5,7,8][0-9]{9}$/.test(value),
   
     /**
      * 身份证校验
@@ -18,3 +18,4 @@
     emailCheck: (value) =>
       /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/.test(value),
   };
+  module.export = Validate
