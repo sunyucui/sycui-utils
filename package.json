@@ -1,8 +1,10 @@
 {
   "name": "sycui-utils",
   "version": "1.0.0",
+  "author": "sunyucui",
   "description": "sunyucui's first npm package, this package is just for vaildating mobile number and IDCard Number ",
   "main": "index.js",
+  "license": "ISC",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,6 +14,9 @@
     "mobile",
     "IDCard"
   ],
-  "author": "sunyucui",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sunyucui/sycui-utils.git"
+  }
+
 }
